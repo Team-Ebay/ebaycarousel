@@ -6,7 +6,5 @@ CREATE DATABASE bandanacarousel;
 \c bandanacarousel
 
 CREATE TABLE chosenbandana(
-   name text,
-   condition text,
-   price INT
+   name text
 );

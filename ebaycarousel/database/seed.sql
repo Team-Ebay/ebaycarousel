@@ -1,2 +1,2 @@
-INSERT INTO chosenbandana(name, condition, price) VALUES ('4 Pack X-Large Paisley Cotton Printed Bandana - 27 x 27 inches', 'New with tags', 16.49);
+INSERT INTO chosenbandana(name) VALUES ('4 Pack X-Large Paisley Cotton Printed Bandana - 27 x 27 inches');
 
