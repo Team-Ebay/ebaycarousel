@@ -1,8 +1,11 @@
 import React from "react";
 import "./App.css";
+import BandanaCarousel from "./component/BandanaCarousel";
 import BandanaOptions from "./component/BandanaOptions";
 import { ChoiceList } from "./component/ChoiceList";
 import { PriceButtonsDiv } from "./component/PriceButtonsDiv";
+import SellerInformation from "./component/SellerInformation";
+import ShopWithConfidence from "./component/ShopWithConfidence";
 
 class App extends React.Component {
   constructor(props) {
@@ -29,17 +32,29 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="bandanaCarouselSection">
-          <div className="customerSelection">
-            <div className="chooseBandana">
-              <BandanaOptions name={this.state.name} />
+        <div className="wholeContainer">
+          <div className="bandanaCarouselSection">
+            {/* Carousel component */}
+            <div className="bandanaCarousel">
+              <BandanaCarousel />
             </div>
-            <div className="choicelist">
-              <hr></hr>
-              <ChoiceList />
+          </div>
+          <div className="container">
+            <div className="customerSelection">
+              <div className="chooseBandana">
+                <BandanaOptions name={this.state.name} />
+              </div>
+              <hr className="firstHr"></hr>
+              <div className="choicelist">
+                <ChoiceList />
+              </div>
+              <hr className="secondHr"></hr>
+              <PriceButtonsDiv />
+              <div className="rightContainer">
+                <ShopWithConfidence />
+                <SellerInformation />
+              </div>
             </div>
-            <PriceButtonsDiv />
-            <div className="bandanaCarousel"></div>
           </div>
         </div>
       </div>
