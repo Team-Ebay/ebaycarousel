@@ -1,0 +1,618 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.wholeContainer {
+  display: flex;
+}
+
+.rightContainer {
+  margin-left: -25px;
+  margin-top: 10px;
+}
+
+.carousel-root {
+  /* I may need to change the display */
+  display: flex;
+  margin-left: 360px;
+  width: 290px;
+  margin-top: 10px;
+}
+
+.carousel {
+  margin-left: -125px;
+
+  margin-top: -290px;
+  overflow: hidden;
+}
+
+/* .carousel .thumbs {
+  transition: border 0.15s ease-in;
+  display: inherit;
+  margin-right: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 3px solid #fff;
+  padding: 2px;
+} */
+
+/* .bandanaStack {
+  height: 13.369px;
+  width: 187.309px;
+  left: 102.5px;
+  top: 4.5px;
+  display: none;
+} */
+
+/* bandanaCarouselSection {
+  margin-left: 3rem;
+} */
+
+/* bandanaCarousel {
+  margin-right: 35px;
+} */
+
+.carousel.carousel-slider {
+  border: red solid 0.1px;
+  height: 240px;
+}
+
+/* .carousel .thumbs {
+  transition: border 0.15s ease-in;
+  margin-right: 166px;
+} */
+
+/* .carousel .thumbs-wrapper {
+  margin: 20px;
+  overflow: hidden;
+} */
+
+.carousel .slide {
+  min-width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.bandanaCarouselSection {
+  /* max-width: 400px; */
+
+  margin-left: 2px;
+  margin-right: -70px;
+}
+
+.firstHr {
+  margin-right: 570px;
+}
+
+.secondHr {
+  margin-right: 570px;
+}
+
+.thirdHr {
+  margin-right: 70px;
+}
+
+.container {
+  margin-left: -5px;
+  margin-right: -550px;
+  font-family: Skin-market-sans;
+}
+
+.carousel .control-dots {
+  position: absolute;
+}
+
+.customerSelection {
+  margin-left: 20px;
+
+  /* padding-right: -50px; */
+}
+.bandanaItem {
+  padding-right: -30px;
+  margin-left: -10px;
+
+  text-align: left;
+}
+
+.chooseBandana {
+  font-size: 7px;
+  padding-right: -300px;
+  margin-left: -5px;
+}
+
+.partOfTitle {
+  font-size: 14px;
+  font-family: Skin-market-sans;
+  padding-right: 400px;
+  margin-left: -15px;
+  text-align: left;
+  margin-top: -8px;
+}
+
+.choicelist {
+  font-size: 6px;
+  margin-right: 805px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.bandanaButtonsDiv {
+  font-size: 7px;
+  margin-right: 495px;
+  margin-left: -5px;
+}
+
+.price {
+  font-size: 9px;
+  margin-right: 302px;
+  margin-bottom: -15px;
+}
+
+.integer {
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 210px;
+}
+
+.allButtons {
+  margin-top: -30px;
+  margin-bottom: 7px;
+  margin-left: 35px;
+}
+
+.buy {
+  background-color: #0053a0;
+  color: white;
+  border: 1px solid #0053a0;
+  font-weight: bold;
+  font-family: Skin-market-sans;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  border-radius: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+}
+
+.buy:hover {
+  background-color: #1958bd;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #1958bd;
+  font-weight: bold;
+  font-family: Skin-market-sans;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+}
+
+.cart {
+  background-color: #3498ca;
+  color: white;
+  border: 1px solid #3498ca;
+  font-weight: bold;
+  font-family: Skin-market-sans;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  border-radius: 20px;
+  padding-right: 41px;
+  padding-left: 41px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+}
+
+.cart:hover {
+  background-color: #1958bd;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #1958bd;
+  font-weight: bold;
+  font-family: Skin-market-sans;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+}
+
+.wishlist {
+  background-color: white;
+  color: #3665f3;
+  border: 1px solid #3665f3;
+  font-weight: bold;
+  font-family: Skin-market-sans;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  border-radius: 20px;
+  padding-right: 26px;
+  padding-left: 26px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+}
+
+.wishlist:hover {
+  background-color: white;
+  color: #2b0eaf;
+  border: 1px solid #2b0eaf;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Skin-market-sans;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding-right: 26px;
+  padding-left: 26px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 8px;
+}
+
+.shippingInfo {
+  display: flex;
+  margin-top: -4px;
+}
+
+.FreeShipping {
+  border-bottom: 1px solid rgb(188, 185, 185);
+  border-right: 1px solid rgb(188, 185, 185);
+  color: red;
+  font-size: 8px;
+  padding-right: 10px;
+}
+
+.sold {
+  border-bottom: 1px solid rgb(188, 185, 185);
+  border-right: 1px solid rgb(188, 185, 185);
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.USshipping {
+  border-bottom: 1px solid rgb(188, 185, 185);
+  color: black;
+  padding-left: 14px;
+}
+
+.carousel.carousel-slider {
+  margin: -13px;
+  border: black solid 1px;
+  width: 15px;
+  height: 255px;
+}
+
+.confidence {
+  border: gray 0.1px solid;
+  margin-left: 350px;
+  padding-right: 15px;
+  width: 170px;
+  height: 135px;
+  margin-top: -250px;
+}
+
+.shopCon {
+  font-size: 9px;
+  text-align: left;
+  margin-left: 7px;
+}
+
+.TopRated {
+  font-size: 8px;
+  margin-left: -40px;
+  font-family: Skin-market-sans;
+}
+
+.trustedSeller {
+  font-size: 7px;
+  margin-left: 29px;
+  margin-top: -3px;
+  text-align: left;
+}
+
+.confidenceHr {
+  margin-left: 7px;
+  margin-right: 8px;
+}
+
+.learnFirst {
+  font-size: 8px;
+  margin-top: -5px;
+  margin-left: -53px;
+  text-decoration: underline;
+  color: #0654ba;
+  font: bold;
+}
+
+.learnFirst:hover {
+  font-size: 8px;
+  cursor: pointer;
+  margin-top: -5px;
+  margin-left: -53px;
+  text-decoration: underline;
+  color: #0654ba;
+  font: bold;
+}
+
+.eBayMoney {
+  font-size: 9px;
+  margin-left: 15px;
+  font-family: Skin-market-sans;
+}
+
+.getTheItem {
+  font-size: 7px;
+  margin-left: 29px;
+  margin-top: -3px;
+  text-align: left;
+}
+
+.learnSecond {
+  font-size: 8px;
+  margin-top: -5px;
+  margin-left: -53px;
+  text-decoration: underline;
+  color: #0654ba;
+  font: bold;
+}
+
+.learnSecond:hover {
+  font-size: 8px;
+  cursor: pointer;
+  margin-top: -5px;
+  margin-left: -53px;
+  text-decoration: underline;
+  color: #0654ba;
+  font: bold;
+}
+
+.InfoOnSeller {
+  border: gray 0.1px solid;
+  margin-left: 350px;
+  padding-right: 15px;
+  width: 170px;
+  height: 115px;
+  margin-top: 8px;
+}
+
+.Seller {
+  font-size: 10px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.bandanaswholesale {
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.bandanaswholesale:hover {
+  cursor: pointer;
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.percentage {
+  font-size: 7px;
+  margin-left: 5px;
+  text-align: left;
+  margin-top: -4px;
+}
+
+.sellerHr {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.saveSeller {
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.saveSeller:hover {
+  cursor: pointer;
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.contactSeller {
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.contactSeller:hover {
+  cursor: pointer;
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.visitStore {
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.visitStore:hover {
+  cursor: pointer;
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.SeeOtherItems {
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.SeeOtherItems:hover {
+  cursor: pointer;
+  font-size: 8px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -6px;
+  text-decoration: underline;
+  color: #0654ba;
+}
+
+.HaveOne {
+  margin-left: -1150px;
+}
+
+.fourthHr {
+  margin-top: 10px;
+  margin-left: 915px;
+  margin-right: 885px;
+}
+
+.haveOneToSell {
+  font-size: 9px;
+  margin-left: 25px;
+}
+
+.sellNow {
+  border: 1px solid #ddd;
+  width: 50px;
+  font-size: 8px;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  color: #0654ba;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fefefe),
+    to(#f8f8f8)
+  );
+  box-shadow: 0 3px 0 rgb(0 0 0 / 4%);
+  border-radius: 3px;
+
+  margin-bottom: 15px;
+}
+
+.sellNow:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  width: 50px;
+  font-size: 8px;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  color: #0654ba;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fefefe),
+    to(#f8f8f8)
+  );
+  border-radius: 3px;
+}
+
+.overallShippingInfo {
+  margin-left: 20px;
+  margin-top: -70px;
+}
+
+.lastShipping {
+  display: flex;
+  font-size: 10px;
+}
+
+.FreeStandardShipping {
+  font-size: 9px;
+  margin-top: -1px;
+  margin-left: -15px;
+}
+
+.details {
+  font-size: 7px;
+  text-decoration: underline;
+  margin-left: 140px;
+  margin-top: -8px;
+}
+
+.located {
+  font-size: 7px;
+  margin-left: 45px;
+  margin-top: -3px;
+}
+
+.delivery {
+  display: flex;
+  font-size: 10px;
+  margin-top: -14px;
+  margin-left: -2px;
+}
+
+.estimated {
+  font-size: 9px;
+  margin-left: -540px;
+  margin-top: -20px;
+}
+
+.Returns {
+  display: flex;
+  font-size: 10px;
+}
+
+.thirtyDay {
+  font-size: 9px;
+  margin-left: -560px;
+  margin-top: -18px;
+}
+
+.thirtyShipping {
+  font-size: 9px;
+  margin-left: -622px;
+  margin-top: -10px;
+}
+
+.payments {
+  display: flex;
+  font-size: 10px;
+  margin-left: -8px;
+}
