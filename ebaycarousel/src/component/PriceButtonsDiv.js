@@ -17,7 +17,7 @@ export const PriceButtonsDiv = () => {
             <h3 className="free">Free shipping and returns</h3>
           </div>
           <div className="sold">
-            <h3 className="sold32">35 sold</h3>
+            <h3 className="sold32">38 sold</h3>
           </div>
           <div className="USshipping">
             <h3 className="us">Ships from United States</h3>
