@@ -9,7 +9,7 @@ import SellerInformation from "./component/SellerInformation";
 import ShopWithConfidence from "./component/ShopWithConfidence";
 import StandardShipping from "./component/StandardShipping";
 
-class App extends React.Component {
+class CarouselApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3009/api/bandanacarousel/")
+    fetch("http://localhost:3010/api/bandanacarousel/")
       .then((response) => response.json())
       .then((data) =>
         this.setState({
@@ -46,7 +46,7 @@ class App extends React.Component {
               <div className="chooseBandana">
                 <BandanaOptions name={this.state.name} />
               </div>
-              <h1 className="partOfTitle">27 inches</h1>
+              <h1 className="partOfTitle">Printed Bandana - 27 x 27 inches</h1>
               <hr className="firstHr"></hr>
               <div className="choicelist">
                 <ChoiceList />
@@ -57,11 +57,14 @@ class App extends React.Component {
                 <ShopWithConfidence />
                 <SellerInformation />
               </div>
-              <div>
+              <div className="haveOneDiv">
                 <HaveOneToSell />
               </div>
               <div>
                 <StandardShipping />
+              </div>
+              <div className="newWTags">
+                <h1 className="newWithTags">New with tags</h1>
               </div>
             </div>
           </div>
@@ -71,4 +74,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default CarouselApp;

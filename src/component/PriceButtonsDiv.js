@@ -14,13 +14,15 @@ export const PriceButtonsDiv = () => {
         <hr className="thirdHr"></hr>
         <div className="shippingInfo">
           <div className="FreeShipping">
-            <h3 className="free">Free shipping and returns</h3>
+            <h3 className="free">Free shipping</h3>
+            <h3 className="free2"> and returns</h3>
           </div>
           <div className="sold">
             <h3 className="sold32">38 sold</h3>
           </div>
           <div className="USshipping">
-            <h3 className="us">Ships from United States</h3>
+            <h3 className="us">Ships from </h3>
+            <h3 className="us2">United States</h3>
           </div>
         </div>
       </div>

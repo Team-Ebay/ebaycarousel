@@ -1,4 +1,5 @@
 import React from "react";
+import PaymentIcons from "./PaymentIcons";
 
 function StandardShipping() {
   return (
@@ -18,14 +19,12 @@ function StandardShipping() {
       <h1 className="Returns">Returns:</h1>
       <p className="thirtyDay">30 days returns | Seller pays for return</p>
       <p className="thirtyShipping">shipping | See details</p>
-
       <h1 className="payments">Payments:</h1>
-      <p className="paypal"></p>
-      <p className="gpay"></p>
-      <p className="visa"></p>
-      <p className="mastercard"></p>
-      <p className="amerexp"></p>
-      <p className="discover"></p>
+      <PaymentIcons />
+
+      <div className="coupon">
+        <img src="https://th.bing.com/th/id/OIP.DE3i4xiTm0OiA5JEQvE67wHMCH?w=279&h=103&c=7&r=0&o=5&pid=1.7" />
+      </div>
     </div>
   );
 }
