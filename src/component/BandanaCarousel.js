@@ -4,7 +4,13 @@ import { Carousel } from "react-responsive-carousel";
 
 function BandanaCarousel() {
   return (
-    <Carousel showArrows={true} showThumbs thumbWidth={true}>
+    <Carousel
+      showArrows={true}
+      showThumbs
+      thumbWidth={true}
+      showIndicators={false}
+      dynamicHeight
+    >
       <div>
         <img
           src="https://i.ebayimg.com/images/g/DJAAAOSws45humck/s-l64.jpg"

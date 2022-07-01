@@ -29,40 +29,15 @@
   overflow: hidden;
 }
 
-.carousel.carousel-slider {
-  margin-left: -123px;
-}
-
-/* .vi-img-overlay--trans {
-  margin: auto;
-  position: absolute;
-  top: 15;
-  left: 0;
-  bottom: 0;
-  right: 0;
-} */
-
 .carousel .thumb {
   transition: border 0.15s ease-in;
   /* display: inline-block; */
   margin-right: 6px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   /* overflow: hidden; */
   border: 3px solid #fff;
   padding: 2px;
 }
-
-/* .bandanaStack {
-  height: 13.369px;
-  width: 187.309px;
-  left: 102.5px;
-  top: 4.5px;
-  display: none;
-} */
-
-/* bandanaCarouselSection {
-  margin-left: 3rem;
-} */
 
 bandanaCarousel {
   cursor: pointer;
@@ -70,34 +45,25 @@ bandanaCarousel {
 
 .carousel.carousel-slider {
   border: red solid 0.1px;
-  height: 240px;
+  height: 500px !important;
+  width: 1200px !important;
 }
 
-/* .carousel .thumbs {
+.carousel .thumbs {
   transition: border 0.15s ease-in;
-  margin-right: 166px;
-} */
-
-/* .carousel .thumbs-wrapper {
-  margin: 20px;
-  overflow: hidden;
-} */
-
-.carousel .slide {
-  min-width: 100%;
-  margin-bottom: 20px;
+  margin-right: -106px;
+  margin: 0 !important;
   position: relative;
-  text-align: center;
+  top: 100px;
+  height: 100px;
 }
 
 .bandanaCarouselSection {
   display: block;
-  width: 500px;
   cursor: pointer;
   margin-left: 402px;
   margin-bottom: -95px;
   /* margin-right: -70px; */
-  border: gray solid 0.1px;
 }
 
 .firstHr {
@@ -152,7 +118,7 @@ bandanaCarousel {
 .choicelist {
   font-size: 11px;
   margin-right: 805px;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-bottom: 15px;
 }
 
@@ -554,8 +520,8 @@ bandanaCarousel {
 }
 
 .HaveOne {
-  margin-left: -1300px;
-  margin-top: 50px;
+  margin-left: -1400px;
+  margin-top: 90px;
 }
 
 /* .haveOneDiv {
@@ -564,8 +530,8 @@ bandanaCarousel {
 
 .fourthHr {
   margin-top: 10px;
-  margin-left: 915px;
-  margin-right: 905px;
+  margin-left: 885px;
+  margin-right: 950px;
 }
 
 .haveOneToSell {
@@ -612,7 +578,7 @@ bandanaCarousel {
 
 .overallShippingInfo {
   margin-left: 20px;
-  margin-top: -90px;
+  margin-top: -140px;
 }
 
 .lastShipping {
@@ -748,7 +714,6 @@ bandanaCarousel {
   background-image: url(https://ir.ebaystatic.com/cr/v/c1/payment-logo-sprite.png);
   background-position: center;
   background-position-x: -116px;
-
   display: inline-block;
   height: 24px;
   width: 39px;
