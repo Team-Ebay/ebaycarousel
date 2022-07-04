@@ -30,9 +30,6 @@ function StandardShipping() {
       <div className="paypalCredit">
         <LastPart />
       </div>
-      <div className="sideCarouselImgs">
-        <SideCarousel />
-      </div>
     </div>
   );
 }
