@@ -1,5 +1,7 @@
 import React from "react";
+import LastPart from "./LastPart";
 import PaymentIcons from "./PaymentIcons";
+import SideCarousel from "./SideCarousel";
 
 function StandardShipping() {
   return (
@@ -24,6 +26,12 @@ function StandardShipping() {
 
       <div className="coupon">
         <img src="https://th.bing.com/th/id/OIP.DE3i4xiTm0OiA5JEQvE67wHMCH?w=279&h=103&c=7&r=0&o=5&pid=1.7" />
+      </div>
+      <div className="paypalCredit">
+        <LastPart />
+      </div>
+      <div className="sideCarouselImgs">
+        <SideCarousel />
       </div>
     </div>
   );
