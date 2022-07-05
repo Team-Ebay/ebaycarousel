@@ -5,8 +5,10 @@ import BandanaOptions from "./component/BandanaOptions";
 import { ChoiceList } from "./component/ChoiceList";
 import HaveOneToSell from "./component/HaveOneToSell";
 import { PriceButtonsDiv } from "./component/PriceButtonsDiv";
+import SecondChoiceList from "./component/SecondChoiceList";
 import SellerInformation from "./component/SellerInformation";
 import ShopWithConfidence from "./component/ShopWithConfidence";
+import SideCarousel from "./component/SideCarousel";
 import StandardShipping from "./component/StandardShipping";
 
 class CarouselApp extends React.Component {
@@ -35,6 +37,9 @@ class CarouselApp extends React.Component {
     return (
       <div className="App">
         <div className="wholeContainer">
+          <div className="sideCarouselImgs">
+            <SideCarousel />
+          </div>
           <div className="bandanaCarouselSection">
             {/* Carousel component */}
             <div className="bandanaCarousel">
@@ -50,6 +55,9 @@ class CarouselApp extends React.Component {
               <hr className="firstHr"></hr>
               <div className="choicelist">
                 <ChoiceList />
+              </div>
+              <div className="secondChoiceList">
+                <SecondChoiceList />
               </div>
               <hr className="secondHr"></hr>
               <PriceButtonsDiv />

@@ -79,7 +79,7 @@ bandanaCarousel {
 }
 
 .container {
-  margin-left: -5px;
+  margin-left: -15px;
   margin-right: -550px;
   font-family: Skin-market-sans;
 }
@@ -89,7 +89,7 @@ bandanaCarousel {
 }
 
 .customerSelection {
-  margin-left: 20px;
+  margin-left: -5px;
 
   /* padding-right: -50px; */
 }
@@ -122,9 +122,49 @@ bandanaCarousel {
   margin-bottom: 15px;
 }
 
+.secondChoiceList {
+  font-size: 11px;
+  margin-right: 285px;
+  margin-left: 1px;
+  margin-top: -70px;
+}
+
+.dropdownColor {
+  border: gray 0.1px solid;
+  margin-left: 110px;
+  text-align: left;
+  margin-right: 60px;
+  border-radius: 5px;
+}
+
+.quantitybox {
+  border: gray 0.1px solid;
+  margin-left: 110px;
+  text-align: left;
+  margin-right: 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.avail {
+  margin-left: 75px;
+  margin-top: -48px;
+  font-size: 15px;
+}
+
+.bluequantity {
+  font-size: 15px;
+  color: #0654ba;
+  text-decoration: underline;
+  margin-left: 150px;
+  margin-top: -15px;
+}
+
 .newWTags {
-  margin-left: -595px;
-  margin-top: -508px;
+  margin-left: -575px;
+  margin-top: -674px;
 }
 
 .newWithTags {
@@ -530,8 +570,8 @@ bandanaCarousel {
 
 .fourthHr {
   margin-top: 10px;
-  margin-left: 885px;
-  margin-right: 950px;
+  margin-left: 920px;
+  margin-right: 925px;
 }
 
 .haveOneToSell {
@@ -719,4 +759,180 @@ bandanaCarousel {
   width: 39px;
   color: transparent;
   margin-right: 3px;
+}
+
+.paypalCredit {
+  margin-left: -255px;
+}
+
+.paypalcreditdiv {
+  margin-left: -185px;
+  margin-top: 40px;
+}
+
+.littlecard {
+  background-image: url(https://ir.ebaystatic.com/cr/v/c1/cobrandedmastercard_39X24.png);
+  background-position: center;
+  background-position-x: 0;
+  display: inline-block;
+  height: 24px;
+  width: 39px;
+  color: transparent;
+  margin-right: 183px;
+}
+
+.paypay {
+  font-size: 20px;
+  color: #04397e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.palpal {
+  font-size: 20px;
+  color: #7dcbea;
+  margin-left: 62px;
+  margin-top: -37px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.credit {
+  font-size: 19px;
+  color: #04397e;
+  margin-left: 165px;
+  margin-top: -34px;
+  font-family: sans-serif;
+}
+
+.special {
+  margin-left: -35px;
+  margin-top: -10px;
+}
+
+.seeTerms {
+  font-size: 13px;
+  color: #0654ba;
+  text-decoration: underline;
+  margin-top: -33px;
+  margin-left: 230px;
+}
+
+.seeTerms2 {
+  font-size: 13px;
+  color: #0654ba;
+  text-decoration: underline;
+  margin-top: -14px;
+  margin-left: -165px;
+  padding-bottom: 5px;
+}
+
+.Earn {
+  margin-left: 70px;
+  margin-top: -35px;
+}
+
+.Earn2 {
+  margin-left: 45px;
+  margin-top: -19px;
+}
+
+.lastlearn {
+  color: #0654ba;
+  text-decoration: underline;
+  font-size: 13.5px;
+  margin-top: -16px;
+  margin-left: -65px;
+}
+
+.sideCarouselImgs {
+  margin-left: 340px;
+  margin-right: -222px;
+  margin-top: 5px;
+}
+
+.p1 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p1:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p2 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p2:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p3 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p3:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p4 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p4:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p5 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p5:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p6 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p6:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p7 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p7:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p8 {
+  border: gray 0.1px solid;
+  margin-bottom: 3px;
+}
+
+.p8:hover {
+  cursor: pointer;
+  border: blue 0.1px solid;
+  margin-bottom: 3px;
 }
